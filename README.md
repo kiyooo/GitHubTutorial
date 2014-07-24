@@ -26,7 +26,7 @@ gitおよびgithubを使うにあたって次の二つのパターンがある�
 まず，localにrepositoryを作るために初期化をする必要があります。
 適当なディレクトリを作成してgitのレポジトリ化しましょう。
 ```
-md GitHubTutorial
+mkdir GitHubTutorial
 cd GitHubTutorial
 git init
 ```
@@ -58,4 +58,7 @@ git push -u origin master
 ```
 
 ###TASK5:コミットをもとに戻す
-・・・
+特定のバージョンに戻すことができます。
+```
+git revert :commitID
+```
