@@ -1,6 +1,5 @@
-#GitHub導入
-
-ソースコードを管理するにあたってgitというツールとgithubというサービスを導入します。
+#GitHub Tutorial
+GitHubに関しての簡単なtutorialです。
 
 ##gitに関して
 gitは，linuxのソースコードの管理の為に開発されたバージョン管理システムです。
